@@ -1,0 +1,117 @@
+.descriptionContainer {
+  // display: flex;
+  justify-content: space-between;
+  // align-items: center;
+  padding: 5px;
+  margin: 50px 0px 50px 0px;
+  font-family: "Rubik", sans-serif;
+  color: rgba(54, 45, 89, 1);
+  .text {
+    padding-right: 10px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+
+    span {
+      color: #e1567c;
+      letter-spacing: 2px;
+      font-weight: 500;
+    }
+    H1 {
+      font-weight: 800;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+    p {
+      width: 40%;
+      font-weight: 300;
+    }
+  }
+  .infoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+
+    .info1 {
+      border-radius: 10px;
+      padding-top: 56px;
+      padding-right: 40px;
+      padding-left: 40px;
+      padding-bottom: 70px;
+      width: 350px;
+      margin: 10px;
+      text-align: center;
+      background: rgb(54, 45, 89);
+      background: linear-gradient(
+        11deg,
+        rgba(54, 45, 89, 1) 65%,
+        rgba(225, 86, 124, 1) 100%
+      );
+      color: white;
+      box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.37);
+      transform: translateY(-50px);
+      .image {
+        display: flex;
+        position: absolute;
+        z-index: -100000;
+        .img1 {
+          position: relative;
+        }
+        .img2 {
+          position: relative;
+          top: 220px;
+          // left: 80px;
+        }
+      }
+      .header {
+        .icon {
+          border-radius: 10px;
+          padding: 5px;
+          margin-bottom: 20px;
+        }
+        span {
+          font-weight: 500;
+          font-size: 23px;
+        }
+      }
+      p {
+        font-weight: 300;
+        margin-top: 20px;
+        font-size: 20px;
+        padding: 10px;
+      }
+    }
+    .info {
+      border-radius: 10px;
+      padding-top: 56px;
+      padding-right: 40px;
+      padding-left: 40px;
+      padding-bottom: 70px;
+      width: 350px;
+      margin: 10px;
+      text-align: center;
+      box-shadow: rgba(133, 66, 189, 0.1) 0px 10px 30px 0px;
+      .header {
+        .icon {
+          border-radius: 10px;
+          padding: 5px;
+          margin-bottom: 20px;
+        }
+        span {
+          font-weight: 500;
+          font-size: 23px;
+        }
+      }
+      p {
+        font-weight: 300;
+        margin-top: 20px;
+        font-size: 20px;
+        padding: 10px;
+      }
+    }
+  }
+}

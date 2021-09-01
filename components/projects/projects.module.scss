@@ -1,0 +1,192 @@
+.container {
+  font-family: "Rubik", sans-serif;
+  .categorie {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(54, 45, 89, 1);
+    p {
+      padding: 10px 20px;
+      margin: 5px;
+      border-radius: 10px;
+      font-size: 20px;
+      cursor: pointer;
+      font-weight: 500;
+    }
+    hr {
+      height: 40px;
+      color: #e1567c;
+      width: 5px;
+      border-radius: 10px;
+      border-style: solid;
+      background-color: #e1567c;
+    }
+    .active {
+      padding: 10px 20px;
+      background-color: #f6f6f8;
+      margin: 5px;
+      border-radius: 10px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
+
+  .mobileProjectsContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    .mobileproject {
+      width: 350px;
+      height: 250px;
+      border-radius: 10px;
+      background-size: cover;
+      margin: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.37);
+      .description {
+        height: 0;
+        overflow: hidden;
+      }
+      &:hover {
+        .description {
+          background: rgba(255, 255, 255, 0.25);
+          backdrop-filter: blur(4px);
+          -webkit-backdrop-filter: blur(4px);
+          width: 90%;
+          height: 90%;
+          padding: 10px;
+          border-radius: 10px;
+          text-align: center;
+          overflow: hidden;
+          transition: height 0.8s ease;
+          span {
+            font-size: 20px;
+            font-weight: 800;
+            color: #e1567c;
+          }
+          p {
+            margin-top: 10px;
+            font-weight: 300;
+            color: rgba(54, 45, 89, 1);
+            margin-bottom: 10px;
+          }
+          .tools {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 20px;
+            .tool {
+              font-family: "Rubik", sans-serif;
+              color: white;
+              font-size: 12px;
+              margin: 5px 10px;
+              padding: 5px;
+              border-radius: 10px;
+              border: 3px solid #e1567c;
+              font-weight: 800;
+            }
+          }
+          button {
+            font-family: "Rubik", sans-serif;
+            padding: 10px 15px;
+            font-weight: 500;
+            color: rgba(54, 45, 89, 1);
+            outline: none;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            background: rgba(54, 45, 89, 1);
+            color: #e1567c;
+          }
+        }
+      }
+    }
+  }
+  .webProjectsContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    .webproject {
+      width: 350px;
+      height: 250px;
+      border-radius: 10px;
+      background-size: cover;
+      background-position: center;
+      margin: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.37);
+      .description {
+        height: 0;
+        overflow: hidden;
+      }
+      &:hover {
+        .description {
+          background: rgba(255, 255, 255, 0.25);
+          backdrop-filter: blur(4px);
+          -webkit-backdrop-filter: blur(4px);
+          width: 90%;
+          height: 90%;
+          padding: 10px;
+          border-radius: 10px;
+          text-align: center;
+          overflow: hidden;
+          transition: height 0.8s ease;
+          span {
+            font-size: 20px;
+            font-weight: 800;
+            color: #e1567c;
+          }
+          p {
+            margin-top: 10px;
+            font-weight: 300;
+            color: rgba(54, 45, 89, 1);
+            margin-bottom: 10px;
+          }
+          .tools {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 20px;
+            .tool {
+              font-family: "Rubik", sans-serif;
+              color: white;
+              font-size: 12px;
+              margin: 5px 10px;
+              padding: 5px;
+              border-radius: 10px;
+              border: 3px solid #e1567c;
+              font-weight: 800;
+            }
+          }
+          button {
+            font-family: "Rubik", sans-serif;
+            padding: 10px 15px;
+            font-weight: 500;
+            color: rgba(54, 45, 89, 1);
+            outline: none;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            background: rgba(54, 45, 89, 1);
+            color: #e1567c;
+          }
+        }
+      }
+    }
+  }
+}
