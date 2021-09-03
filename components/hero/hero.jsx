@@ -14,12 +14,17 @@ const Hero = () => {
       <div className={styles.heroImage}>
         <div className={styles.img1}>
           <img
-            src="/cloud1.png"
-            width="100vw"
-            height="100vw"
-            style={{ marginLeft: "55%" }}
+            src="/planet.svg"
+            width="250vw"
+            height="250vw"
+            style={{ marginLeft: "30%", transform: "rotate(-20deg)" }}
           ></img>
-          <img src="/hero.svg" width="400vw" height="400vw"></img>
+          <img
+            src="/hero.svg"
+            width="400vw"
+            height="400vw"
+            className={styles.anime}
+          ></img>
         </div>
         <div className={styles.img2}>
           <img
@@ -38,7 +43,7 @@ const Hero = () => {
       </div>
       <div className={styles.heroText}>
         <div className={styles.logo}>
-          <ImTarget style={{ fontSize: "1.2vw" }}></ImTarget>
+          <img src="target.png" width="20px" height="20px"></img>
           <span>SNIPER STUDIO</span>
         </div>
         <p className={styles.agency}>CREATIVE DEGETAL AGENCY </p>

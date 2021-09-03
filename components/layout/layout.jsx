@@ -6,17 +6,17 @@ import Image from "next/image";
 import styles from "./layout.module.scss";
 
 //react-icons
-import { ImTarget } from "react-icons/im";
 import { FiFacebook, FiLinkedin, FiInstagram } from "react-icons/fi";
 import { RiTwitterLine } from "react-icons/ri";
 import ActiveLink from "../activeLink/activeLink";
+import { Footer } from "../footer/footer";
 
 const Layout = (props) => {
   return (
     <div>
       <div className={styles.header}>
         <div className={styles.logo}>
-          <ImTarget></ImTarget>
+          <img src="target1.png" width="35px" height="35px"></img>
         </div>
         <div className={styles.menu}>
           <ul>
@@ -29,9 +29,9 @@ const Layout = (props) => {
             <ActiveLink href="/work" activeClassName={styles.active}>
               <li>Work</li>
             </ActiveLink>
-            <ActiveLink href="/services" activeClassName={styles.active}>
+            {/* <ActiveLink href="/services" activeClassName={styles.active}>
               <li>Services</li>
-            </ActiveLink>
+            </ActiveLink> */}
             <ActiveLink href="/contact" activeClassName={styles.active}>
               <li>Contact </li>
             </ActiveLink>
@@ -53,6 +53,7 @@ const Layout = (props) => {
         </div>
       </div>
       {props.children}
+      <Footer></Footer>
     </div>
   );
 };

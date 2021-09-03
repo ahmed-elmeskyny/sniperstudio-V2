@@ -8,7 +8,7 @@ export const Projects = () => {
   const [ToggleWork, setToggleWork] = useState(true);
   return (
     <div className={styles.container}>
-      <div className={styles.categorie}>
+      {/* <div className={styles.categorie}>
         <p
           className={ToggleWork ? styles.active : null}
           onClick={() => setToggleWork(!ToggleWork)}
@@ -22,106 +22,105 @@ export const Projects = () => {
         >
           Web Apps
         </p>
-      </div>
-      {ToggleWork ? (
-        <div className={styles.mobileProjectsContainer}>
-          <div
-            className={styles.mobileproject}
-            style={{ backgroundImage: "url(/splashscreen1.jpg)" }}
-          >
-            <div className={styles.description}>
-              <span>App name</span>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quaerat, itaque doloremque
-              </p>
-              <div className={styles.tools}>
-                <span className={styles.tool}> React</span>
-                <span className={styles.tool}> Firebase</span>
-                <span className={styles.tool}> Figma</span>
-                <span className={styles.tool}> Css</span>
-              </div>
-              <button>Learn More</button>
+      </div> */}
+      <div className={styles.mobileProjectsContainer}>
+        <div
+          className={styles.mobileproject}
+          style={{ backgroundImage: "url(/splashscreen1.jpg)" }}
+        >
+          <div className={styles.description}>
+            <span>App name</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+              itaque doloremque
+            </p>
+            <div className={styles.tools}>
+              <span className={styles.tool}> React</span>
+              <span className={styles.tool}> Firebase</span>
+              <span className={styles.tool}> Figma</span>
+              <span className={styles.tool}> Css</span>
             </div>
-          </div>
-          <div
-            className={styles.mobileproject}
-            style={{ backgroundImage: "url(/splashscreen2.jpg)" }}
-          >
-            <div className={styles.description}>
-              <span>App name</span>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quaerat, itaque doloremque
-              </p>
-              <div className={styles.tools}>
-                <span className={styles.tool}> React</span>
-                <span className={styles.tool}> Firebase</span>
-                <span className={styles.tool}> Figma</span>
-                <span className={styles.tool}> Css</span>
-              </div>
-              <button>Learn More</button>
-            </div>
-          </div>
-          <div
-            className={styles.mobileproject}
-            style={{ backgroundImage: "url(/splashscreen3.jpg)" }}
-          >
-            <div className={styles.description}>
-              <span>App name</span>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quaerat, itaque doloremque
-              </p>
-              <div className={styles.tools}>
-                <span className={styles.tool}> React</span>
-                <span className={styles.tool}> Firebase</span>
-                <span className={styles.tool}> Figma</span>
-                <span className={styles.tool}> Css</span>
-              </div>
-              <button>Learn More</button>
-            </div>
-          </div>
-          <div
-            className={styles.mobileproject}
-            style={{ backgroundImage: "url(/splashscreen4.jpg)" }}
-          >
-            <div className={styles.description}>
-              <span>App name</span>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quaerat, itaque doloremque
-              </p>
-              <div className={styles.tools}>
-                <span className={styles.tool}> React</span>
-                <span className={styles.tool}> Firebase</span>
-                <span className={styles.tool}> Figma</span>
-                <span className={styles.tool}> Css</span>
-              </div>
-              <button>Learn More</button>
-            </div>
-          </div>
-          <div
-            className={styles.mobileproject}
-            style={{ backgroundImage: "url(/splashscreen5.jpg)" }}
-          >
-            <div className={styles.description}>
-              <span>App name</span>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quaerat, itaque doloremque
-              </p>
-              <div className={styles.tools}>
-                <span className={styles.tool}> React</span>
-                <span className={styles.tool}> Firebase</span>
-                <span className={styles.tool}> Figma</span>
-                <span className={styles.tool}> Css</span>
-              </div>
-              <button>Learn More</button>
-            </div>
+            <button>Learn More</button>
           </div>
         </div>
-      ) : (
+        <div
+          className={styles.mobileproject}
+          style={{ backgroundImage: "url(/splashscreen2.jpg)" }}
+        >
+          <div className={styles.description}>
+            <span>App name</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+              itaque doloremque
+            </p>
+            <div className={styles.tools}>
+              <span className={styles.tool}> React</span>
+              <span className={styles.tool}> Firebase</span>
+              <span className={styles.tool}> Figma</span>
+              <span className={styles.tool}> Css</span>
+            </div>
+            <button>Learn More</button>
+          </div>
+        </div>
+        <div
+          className={styles.mobileproject}
+          style={{ backgroundImage: "url(/splashscreen3.jpg)" }}
+        >
+          <div className={styles.description}>
+            <span>App name</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+              itaque doloremque
+            </p>
+            <div className={styles.tools}>
+              <span className={styles.tool}> React</span>
+              <span className={styles.tool}> Firebase</span>
+              <span className={styles.tool}> Figma</span>
+              <span className={styles.tool}> Css</span>
+            </div>
+            <button>Learn More</button>
+          </div>
+        </div>
+        <div
+          className={styles.mobileproject}
+          style={{ backgroundImage: "url(/splashscreen4.jpg)" }}
+        >
+          <div className={styles.description}>
+            <span>App name</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+              itaque doloremque
+            </p>
+            <div className={styles.tools}>
+              <span className={styles.tool}> React</span>
+              <span className={styles.tool}> Firebase</span>
+              <span className={styles.tool}> Figma</span>
+              <span className={styles.tool}> Css</span>
+            </div>
+            <button>Learn More</button>
+          </div>
+        </div>
+        <div
+          className={styles.mobileproject}
+          style={{ backgroundImage: "url(/splashscreen5.jpg)" }}
+        >
+          <div className={styles.description}>
+            <span>App name</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+              itaque doloremque
+            </p>
+            <div className={styles.tools}>
+              <span className={styles.tool}> React</span>
+              <span className={styles.tool}> Firebase</span>
+              <span className={styles.tool}> Figma</span>
+              <span className={styles.tool}> Css</span>
+            </div>
+            <button>Learn More</button>
+          </div>
+        </div>
+      </div>
+      {/* ) : (
         <div className={styles.webProjectsContainer}>
           <div
             className={styles.webproject}
@@ -200,7 +199,7 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-      )}
+      )} */}
     </div>
   );
 };

@@ -10,7 +10,7 @@ const Info = () => {
       <div className={styles.text}>
         <div style={{ width: "30%" }}>
           <span>WHAT WE DO </span>
-          <h1>Perfect Solution For Your Business</h1>
+          <h1>WE BUILD APPS, SO YOU DON’T HAVE TO!</h1>
         </div>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus

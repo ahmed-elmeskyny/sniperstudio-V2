@@ -7,12 +7,12 @@
   font-family: "Rubik", sans-serif;
   color: rgba(54, 45, 89, 1);
   .text {
-    padding-right: 10px;
-    margin-top: 15px;
+    padding: 35px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
 
     span {
       color: #e1567c;
@@ -35,6 +35,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 15%;
+    margin-bottom: 30px;
 
     .info1 {
       border-radius: 10px;
@@ -65,6 +66,7 @@
           position: relative;
           top: 220px;
           // left: 80px;
+          animation: move 1.5s infinite alternate;
         }
       }
       .header {
@@ -113,5 +115,15 @@
         padding: 10px;
       }
     }
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-20px);
   }
 }

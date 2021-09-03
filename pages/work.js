@@ -18,47 +18,20 @@ export default function Works() {
 
       <Layout>
         <div className={styles.header}>
-          <div className={styles.imageContainer}>
-            <div className={styles.img1}>
-              <img
-                src="/cloud5.png"
-                width="100vw"
-                height="130vw"
-                style={{
-                  marginLeft: "45%",
-                  marginTop: "-10%",
-                  marginBottom: "20%",
-                }}
-              ></img>
-              <img
-                src="/cloud2.png"
-                width="100vw"
-                height="80vw"
-                style={{ marginLeft: "100%" }}
-              ></img>
-            </div>
-            <div className={styles.img2}>
-              <img src="/cloud2.png" width="100vw" height="80vw"></img>
-              <img
-                src="/cloud3.png"
-                width="100vw"
-                height="100vw"
-                style={{ marginTop: "60%" }}
-              ></img>
-            </div>
-          </div>
           <div className={styles.text}>
-            <h2>Our Work</h2>
-            <span>
-              {" "}
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-              itaque doloremque. Aperiam velit, itaque esse quod pariatur magni
-              earum tempore quia mollitia ex beatae vel quidem dolore
-              consequatur maxime ut.
-            </span>
+            <div style={{ width: "40%" }}>
+              <h1>Our Work</h1>
+              <span>
+                {" "}
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quaerat, itaque doloremque. Aperiam velit, itaque esse quod
+                pariatur magni earum tempore quia
+              </span>
+            </div>
+            <img src="/work.svg" width="300vw" height="300vw"></img>
           </div>
         </div>
-
+        <h2 className={styles.p}>Check out some of our works </h2>
         <Projects />
       </Layout>
     </div>
