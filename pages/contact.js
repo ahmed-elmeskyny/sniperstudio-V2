@@ -17,9 +17,9 @@ export default function Contact() {
       </Head>
 
       <Layout>
-        <div className={styles.header}>
-          <div className={styles.text}>
-            <div style={{ width: "40%" }}>
+        <div className={styles.headerContainer}>
+          <div className={styles.header}>
+            <div className={styles.text}>
               <h1>Contact Us</h1>
               <span>
                 {" "}

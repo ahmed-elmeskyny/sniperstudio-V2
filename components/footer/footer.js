@@ -18,9 +18,7 @@ export const Footer = () => {
       <div className={styles.contactContainer}>
         <div className={styles.contact}>
           <h1>You're still here</h1>
-          <span>
-            Don't lett your app idea go in the clouds. Get started now
-          </span>
+          <span>Don't let your app idea go in the clouds. Get started now</span>
           <Link href="/contact">
             <a className={styles.link}>Contact Us</a>
           </Link>
@@ -51,17 +49,19 @@ export const Footer = () => {
         </div>
       </div>
       <div className={styles.links}>
-        <div className={styles.icon}>
-          <FiLinkedin></FiLinkedin>
-        </div>
-        <div className={styles.icon}>
-          <FiFacebook></FiFacebook>
-        </div>
-        <div className={styles.icon}>
-          <FiInstagram></FiInstagram>
-        </div>
-        <div className={styles.icon}>
-          <RiTwitterLine></RiTwitterLine>
+        <div className={styles.icons}>
+          <div className={styles.icon}>
+            <FiLinkedin></FiLinkedin>
+          </div>
+          <div className={styles.icon}>
+            <FiFacebook></FiFacebook>
+          </div>
+          <div className={styles.icon}>
+            <FiInstagram></FiInstagram>
+          </div>
+          <div className={styles.icon}>
+            <RiTwitterLine></RiTwitterLine>
+          </div>
         </div>
         <div className={styles.terms}>
           <span>Terms of service</span>
@@ -76,7 +76,7 @@ export const Footer = () => {
         <img src="/footer.svg" width="320vw" height="320vw"></img>
       </div>
       <div className={styles.img2}>
-        <img src="/4.png" width="120vw" height="100vw"></img>
+        <img src="/4.png" width="130vw" height="110vw"></img>
       </div>
     </div>
   );

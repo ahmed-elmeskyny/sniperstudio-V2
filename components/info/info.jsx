@@ -8,7 +8,7 @@ const Info = () => {
   return (
     <div className={styles.descriptionContainer}>
       <div className={styles.text}>
-        <div style={{ width: "30%" }}>
+        <div className={styles.title}>
           <span>WHAT WE DO </span>
           <h1>WE BUILD APPS, SO YOU DON’T HAVE TO!</h1>
         </div>
@@ -35,24 +35,26 @@ const Info = () => {
         </div>
 
         <div className={styles.info1}>
-          <div className={styles.image}>
-            <div className={styles.img1}>
-              <img
-                src="/cloud4.png"
-                width="100vw"
-                height="100vw"
-                style={{ marginLeft: "-50%", marginTop: "-20%" }}
-              ></img>
-              <img
-                src="/cloud1.png"
-                width="100vw"
-                height="100vw"
-                style={{ marginLeft: "200%" }}
-              ></img>
-            </div>
-            <div className={styles.img2}>
-              <img src="/info.svg" width="300vw" height="300vw"></img>
-            </div>
+          <div className={styles.img1}>
+            <img
+              src="/cloud4.png"
+              width="100vw"
+              height="100vw"
+              style={{ marginLeft: "-50%", marginTop: "-20%" }}
+            ></img>
+          </div>
+
+          <div className={styles.img2}>
+            <img
+              src="/cloud1.png"
+              width="100vw"
+              height="100vw"
+              style={{ marginLeft: "200%" }}
+            ></img>
+          </div>
+
+          <div className={styles.img3}>
+            <img src="/info.svg" width="300vw" height="300vw"></img>
           </div>
           <div className={styles.header}>
             <div className={styles.icon}>

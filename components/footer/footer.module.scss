@@ -21,6 +21,16 @@
   border-radius: 20px;
   margin-bottom: 30px;
   margin-top: 50px;
+  @media (max-width: 900px) {
+    justify-content: flex-start;
+    height: 600px;
+    background: rgb(54, 45, 89);
+    background: linear-gradient(
+      11deg,
+      rgba(54, 45, 89, 1) 65%,
+      rgba(225, 86, 124, 1) 100%
+    );
+  }
 
   .links {
     display: flex;
@@ -29,27 +39,41 @@
     font-weight: 300;
     justify-content: center;
     width: 100%;
-    .icon {
+    @media (max-width: 900px) {
+      flex-direction: column;
+      width: 100%;
+    }
+    .icons {
       font-weight: 300;
-      padding: 5px;
-      margin: 5px;
       display: flex;
       align-items: center;
       justify-content: center;
-      cursor: pointer;
-      border-radius: 70px;
 
-      &:hover {
-        background: rgba(255, 255, 255, 0.25);
-        backdrop-filter: blur(4px);
-        -webkit-backdrop-filter: blur(4px);
+      .icon {
+        padding: 5px;
+        margin: 5px;
+        cursor: pointer;
+        border-radius: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
-        color: #e1567c;
+        &:hover {
+          background: rgba(255, 255, 255, 0.25);
+          backdrop-filter: blur(4px);
+          -webkit-backdrop-filter: blur(4px);
+
+          color: #e1567c;
+        }
       }
     }
     .terms {
       margin-left: 40px;
       margin-right: 40px;
+      @media (max-width: 900px) {
+        margin: 0;
+        margin-bottom: 10px;
+      }
       span {
         cursor: pointer;
         &:hover {
@@ -62,22 +86,39 @@
     position: absolute;
     right: -40px;
     top: 4%;
+    @media (max-width: 900px) {
+      z-index: -1000;
+      top: 52%;
+      right: -45px;
+    }
   }
   .img2 {
     position: absolute;
     top: -10%;
     left: 30px;
+    @media (max-width: 900px) {
+      z-index: -100;
+      left: auto;
+      right: 0;
+    }
   }
 
   .contactContainer {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+    @media (max-width: 900px) {
+      flex-direction: column;
+    }
     .contact {
       display: flex;
       flex-direction: column;
       width: 50%;
       margin-right: 70px;
+      @media (max-width: 900px) {
+        width: 100%;
+      }
+
       h1 {
         color: #e1567c;
         font-weight: 800;
@@ -101,6 +142,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        @media (max-width: 900px) {
+          width: 50%;
+          margin-bottom: 30px;
+        }
         &:hover {
           background: rgba(255, 255, 255, 0.25);
           box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);

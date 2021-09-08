@@ -11,36 +11,46 @@ import { ImTarget } from "react-icons/im";
 const Hero = () => {
   return (
     <div className={styles.hero}>
-      <div className={styles.heroImage}>
-        <div className={styles.img1}>
-          <img
-            src="/planet.svg"
-            width="250vw"
-            height="250vw"
-            style={{ marginLeft: "30%", transform: "rotate(-20deg)" }}
-          ></img>
-          <img
-            src="/hero.svg"
-            width="400vw"
-            height="400vw"
-            className={styles.anime}
-          ></img>
-        </div>
-        <div className={styles.img2}>
-          <img
-            src="/cloud2.png"
-            width="200vw"
-            height="150vw"
-            style={{ marginBottom: "100%" }}
-          ></img>
-          <img
-            src="/cloud2.png"
-            width="100vw"
-            height="80vw"
-            style={{ margintop: "1000px" }}
-          ></img>
-        </div>
+      {/* <div className={styles.heroImage}> */}
+      <div className={styles.img1}>
+        <img
+          src="/planet.svg"
+          width="250vw"
+          height="250vw"
+          // style={{ marginLeft: "30%", transform: "rotate(-20deg)" }}
+          className={styles.planet}
+        ></img>
       </div>
+
+      <div className={styles.img2}>
+        <img
+          src="/hero.svg"
+          width="400vw"
+          height="400vw"
+          className={styles.heroSvg}
+        ></img>
+      </div>
+
+      <div className={styles.img3}>
+        <img
+          src="/cloud1.png"
+          width="150vw"
+          height="150vw"
+          style={{ marginBottom: "100%" }}
+          className={styles.cloud2}
+        ></img>
+      </div>
+
+      <div className={styles.img4}>
+        <img
+          src="/cloud2.png"
+          width="100vw"
+          height="80vw"
+          style={{ margintop: "1000px" }}
+          className={styles.cloud3}
+        ></img>
+      </div>
+      {/* </div> */}
       <div className={styles.heroText}>
         <div className={styles.logo}>
           <img src="target.png" width="20px" height="20px"></img>

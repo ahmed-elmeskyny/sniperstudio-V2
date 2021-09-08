@@ -10,10 +10,12 @@ import { FiFacebook, FiLinkedin, FiInstagram } from "react-icons/fi";
 import { RiTwitterLine } from "react-icons/ri";
 import ActiveLink from "../activeLink/activeLink";
 import { Footer } from "../footer/footer";
+import { MobileMenu } from "../mobileMenu/mobileMenu";
 
 const Layout = (props) => {
   return (
     <div>
+      {/* <MobileMenu></MobileMenu> */}
       <div className={styles.header}>
         <div className={styles.logo}>
           <img src="target1.png" width="35px" height="35px"></img>

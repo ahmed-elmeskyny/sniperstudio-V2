@@ -17,9 +17,9 @@ export default function Works() {
       </Head>
 
       <Layout>
-        <div className={styles.header}>
-          <div className={styles.text}>
-            <div style={{ width: "40%" }}>
+        <div className={styles.headerContainer}>
+          <div className={styles.header}>
+            <div className={styles.text}>
               <h1>Our Work</h1>
               <span>
                 {" "}
