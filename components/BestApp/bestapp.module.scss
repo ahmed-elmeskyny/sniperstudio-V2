@@ -1,0 +1,147 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik", sans-serif;
+  margin-bottom: 150px;
+  @media (max-width: 900px) {
+    flex-wrap: wrap;
+  }
+  .videoContainer {
+    display: flex;
+    box-shadow: rgb(119 119 119 / 60%) 0px 5px 25px -10px;
+    border-radius: 10px;
+    overflow: hidden;
+    .app {
+      display: flex;
+
+      height: 550px;
+      @media (min-width: 1300px) {
+        height: 750px;
+      }
+    }
+  }
+  .appInfo {
+    width: 60%;
+    background-color: #f8f8f9;
+    padding: 50px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    @media (max-width: 900px) {
+      width: 100%;
+      text-align: center;
+      margin-top: -50px;
+      z-index: -100;
+    }
+    @media (min-width: 1300px) {
+      width: 70%;
+      height: 600px;
+      padding-top: 120px;
+      h1 {
+        font-size: 45px;
+      }
+    }
+    .img {
+      position: absolute;
+      right: -15px;
+      top: -45px;
+      @media (max-width: 900px) {
+        display: none;
+      }
+      .cloud {
+        width: 120px;
+        height: 100px;
+      }
+    }
+    .svg {
+      position: absolute;
+      bottom: -100px;
+      right: 0;
+      @media (min-width: 1300px) {
+        bottom: -130px;
+      }
+      @media (max-width: 900px) {
+        right: -40px;
+        bottom: -65px;
+      }
+      .bestAppSvg {
+        width: 300px;
+        height: 300px;
+        @media (max-width: 900px) {
+          width: 200px;
+          height: 200px;
+        }
+        @media (min-width: 1300px) {
+          width: 400px;
+          height: 400px;
+        }
+      }
+    }
+    .appType {
+      color: #e1567c;
+      letter-spacing: 1.5px;
+      font-weight: 500;
+      margin-bottom: 20px;
+      @media (max-width: 900px) {
+        margin-top: 50px;
+      }
+    }
+    h1 {
+      color: rgba(54, 45, 89, 1);
+    }
+    .appDescription {
+      color: rgba(54, 45, 89, 1);
+      margin-top: 20px;
+      width: 70%;
+      line-height: 20px;
+      @media (max-width: 900px) {
+        width: 100%;
+      }
+      @media (min-width: 1300px) {
+        font-size: 25px;
+        line-height: 30px;
+      }
+    }
+    .links {
+      display: flex;
+      align-items: center;
+      @media (max-width: 900px) {
+        flex-direction: column;
+      }
+
+      .link {
+        cursor: pointer;
+        width: 150px;
+        height: 50px;
+        color: white;
+        padding: 15px 20px;
+        font-weight: 800;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        transition: all 0.3s ease;
+        background: rgb(54, 45, 89);
+        background: linear-gradient(
+          90deg,
+          rgba(54, 45, 89, 1) 61%,
+          rgba(225, 86, 124, 1) 100%
+        );
+        border-radius: 10px;
+        transition: 0.3s all ease;
+        margin-right: 20px;
+        @media (max-width: 900px) {
+          margin-right: 0;
+          margin-top: 30px;
+        }
+      }
+      img {
+        cursor: pointer;
+        width: 150px;
+        @media (max-width: 900px) {
+          margin-top: -30px;
+          width: 150px;
+        }
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 .descriptionContainer {
   // display: flex;
-  justify-content: space-between;
+  // justify-content: space-between;
   // align-items: center;
   padding: 5px;
   margin: 50px 0px 50px 0px;
@@ -44,6 +44,9 @@
       @media (max-width: 900px) {
         width: 100%;
       }
+      @media (min-width: 1300px) {
+        font-size: 20px;
+      }
     }
   }
   .infoContainer {
@@ -52,7 +55,11 @@
     justify-content: center;
     align-items: center;
     margin-top: 15%;
-    margin-bottom: 30px;
+    margin-bottom: 15%;
+    @media (min-width: 1300px) {
+      margin-top: 10%;
+      margin-bottom: 10%;
+    }
 
     .info1 {
       border-radius: 10px;
@@ -64,12 +71,15 @@
       margin-top: 10px;
       margin-bottom: 10px;
       text-align: center;
+      margin-left: 25px;
+      margin-right: 25px;
       background: rgb(54, 45, 89);
       background: linear-gradient(
         11deg,
         rgba(54, 45, 89, 1) 65%,
         rgba(225, 86, 124, 1) 100%
       );
+
       color: white;
       box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.37);
       transform: translateY(-50px);
@@ -77,23 +87,36 @@
         transform: translateY(0px);
         width: 100%;
       }
+      @media (min-width: 1300px) {
+        width: 30%;
+        height: 550px;
+      }
 
       .img1 {
         position: absolute;
+        z-index: -10;
       }
       .img2 {
         position: absolute;
-        bottom: 200px;
+        bottom: 250px;
+        z-index: -10;
+        right: 0;
       }
       .img3 {
         position: absolute;
         bottom: -180px;
-        z-index: -100;
+        z-index: -10;
         right: -100px;
         animation: move 1.5s infinite alternate;
         @media (max-width: 900px) {
-          right: 0px;
-          bottom: -170px;
+          right: -120px;
+          bottom: -130px;
+        }
+        .infoSvg {
+          @media (min-width: 1300px) {
+            width: 450px;
+            height: 450px;
+          }
         }
       }
     }
@@ -109,6 +132,9 @@
       span {
         font-weight: 500;
         font-size: 23px;
+        @media (min-width: 1300px) {
+          font-size: 30px;
+        }
       }
     }
     p {
@@ -116,6 +142,9 @@
       margin-top: 20px;
       font-size: 20px;
       padding: 10px;
+      @media (min-width: 1300px) {
+        font-size: 25px;
+      }
     }
 
     .info {
@@ -132,6 +161,10 @@
       @media (max-width: 900px) {
         width: 100%;
       }
+      @media (min-width: 1300px) {
+        width: 30%;
+        height: 550px;
+      }
       .header {
         .icon {
           border-radius: 10px;
@@ -144,6 +177,9 @@
         span {
           font-weight: 500;
           font-size: 23px;
+          @media (min-width: 1300px) {
+            font-size: 30px;
+          }
         }
       }
       p {
@@ -151,6 +187,9 @@
         margin-top: 20px;
         font-size: 20px;
         padding: 10px;
+        @media (min-width: 1300px) {
+          font-size: 25px;
+        }
       }
     }
   }

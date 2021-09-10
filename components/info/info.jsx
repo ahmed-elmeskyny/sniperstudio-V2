@@ -40,7 +40,7 @@ const Info = () => {
               src="/cloud4.png"
               width="100vw"
               height="100vw"
-              style={{ marginLeft: "-50%", marginTop: "-20%" }}
+              style={{ marginLeft: "-70%", marginTop: "-20%" }}
             ></img>
           </div>
 
@@ -49,12 +49,17 @@ const Info = () => {
               src="/cloud1.png"
               width="100vw"
               height="100vw"
-              style={{ marginLeft: "200%" }}
+              // style={{ marginLeft: "50vw" }}
             ></img>
           </div>
 
           <div className={styles.img3}>
-            <img src="/info.svg" width="300vw" height="300vw"></img>
+            <img
+              src="/info.svg"
+              width="300vw"
+              height="300vw"
+              className={styles.infoSvg}
+            ></img>
           </div>
           <div className={styles.header}>
             <div className={styles.icon}>

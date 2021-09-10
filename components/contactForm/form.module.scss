@@ -3,20 +3,39 @@
   display: flex;
   font-family: "Rubik", sans-serif;
   justify-content: space-between;
+  @media (max-width: 900px) {
+    flex-wrap: wrap-reverse;
+  }
   form {
+    @media (max-width: 900px) {
+      width: 100%;
+      margin-bottom: 50px;
+    }
     h2 {
       font-weight: 800;
       color: #e1567c;
       margin-bottom: 10px;
+      @media (max-width: 900px) {
+        text-align: center;
+      }
     }
     textarea {
       font-family: "Rubik", sans-serif;
+      outline: none;
       font-weight: 300;
       width: 650px;
       height: 200px;
       border-radius: 5px;
       padding: 10px;
       margin-bottom: 20px;
+      border: none;
+      background-color: #f3f3f5;
+      @media (max-width: 900px) {
+        width: 100%;
+      }
+      @media (min-width: 1300px) {
+        width: 1000px;
+      }
     }
     .inputs {
       display: flex;
@@ -26,20 +45,29 @@
         font-family: "Rubik", sans-serif;
         font-weight: 300;
         border-radius: 5px;
-        border: 1px solid black;
+        outline: none;
         height: 50px;
         width: 300px;
         padding: 10px;
+        border: none;
+        background-color: #f3f3f5;
+        @media (max-width: 900px) {
+          width: 45%;
+        }
+        @media (min-width: 1300px) {
+          width: 490px;
+        }
       }
     }
     input {
       font-family: "Rubik", sans-serif;
       font-weight: 300;
       border-radius: 5px;
-      border: 1px solid black;
       height: 50px;
       width: 100%;
       padding: 10px;
+      border: none;
+      background-color: #f3f3f5;
     }
     button {
       margin-top: 20px;
@@ -56,6 +84,10 @@
     margin-top: 50px;
     font-family: "Rubik", sans-serif;
     font-weight: 300;
+    @media (max-width: 900px) {
+      width: 100%;
+      margin-bottom: 50px;
+    }
     .info {
       display: flex;
       align-items: center;

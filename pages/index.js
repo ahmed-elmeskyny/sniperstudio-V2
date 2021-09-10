@@ -8,6 +8,7 @@ import styles from "../styles/Home.module.scss";
 import Layout from "../components/layout/layout";
 import Hero from "../components/hero/hero";
 import Info from "../components/info/info";
+import { BestApp } from "../components/BestApp/bestapp";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Layout>
         <Hero></Hero>
         <Info></Info>
+        <BestApp></BestApp>
       </Layout>
     </div>
   );
