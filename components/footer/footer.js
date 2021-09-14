@@ -18,7 +18,9 @@ export const Footer = () => {
       <div className={styles.contactContainer}>
         <div className={styles.contact}>
           <h1>You're still here</h1>
-          <span>Don't let your app idea go in the clouds. Get started now</span>
+          <span>
+            Don't let your app idea go in to the clouds. Get started now
+          </span>
           <Link href="/contact">
             <a className={styles.link}>Contact Us</a>
           </Link>

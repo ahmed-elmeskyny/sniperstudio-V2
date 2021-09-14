@@ -21,7 +21,7 @@ export const BestApp = () => {
           <img src="/18.png" className={styles.cloud}></img>
         </div>
         <div className={styles.svg}>
-          <img src="/bestapp.svg" className={styles.bestAppSvg}></img>
+          <img src="/bestApp.svg" className={styles.bestAppSvg}></img>
         </div>
         <p className={styles.appType}>ANDROID APP</p>
         <h1>UPTIME </h1>
@@ -36,6 +36,33 @@ export const BestApp = () => {
             <a className={styles.link}>Explore More </a>
           </Link>
           <img src="/googleplay.png"></img>
+        </div>
+        <div className={styles.technologies}>
+          <p>With : </p>
+          <img
+            src="/android.svg"
+            height="30px"
+            width="30px"
+            style={{ marginRight: "5px" }}
+          ></img>
+          <img
+            src="/react.svg"
+            height="30px"
+            width="30px"
+            style={{ marginRight: "5px" }}
+          ></img>
+          <img
+            src="/firebase.svg"
+            height="30px"
+            width="30px"
+            style={{ marginRight: "5px" }}
+          ></img>
+          <img
+            src="/figma.svg"
+            height="30px"
+            width="30px"
+            style={{ marginRight: "5px" }}
+          ></img>
         </div>
       </div>
     </div>

@@ -1,0 +1,21 @@
+.container {
+  margin-top: 50px;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  h1 {
+    font-weight: 800;
+    color: #e1567c;
+  }
+  .technologies {
+    display: flex;
+    flex-wrap: wrap;
+
+    img {
+      width: 100px;
+      height: 100px;
+      margin: 50px;
+    }
+  }
+}

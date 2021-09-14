@@ -6,6 +6,7 @@ import styles from "../styles/about.module.scss";
 
 //components
 import Layout from "../components/layout/layout";
+import { Techno } from "../components/tehnologies/technologies";
 
 export default function About() {
   return (
@@ -43,6 +44,7 @@ export default function About() {
             </div>
           </div>
         </div>
+        <Techno></Techno>
       </Layout>
     </div>
   );
