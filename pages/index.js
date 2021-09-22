@@ -9,6 +9,7 @@ import Layout from "../components/layout/layout";
 import Hero from "../components/hero/hero";
 import Info from "../components/info/info";
 import { BestApp } from "../components/BestApp/bestapp";
+import { Testimonials } from "../components/testimonials/testimonials";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <Hero></Hero>
         <Info></Info>
         <BestApp></BestApp>
+        <Testimonials></Testimonials>
       </Layout>
     </div>
   );

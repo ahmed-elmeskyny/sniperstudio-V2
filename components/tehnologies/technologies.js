@@ -6,7 +6,10 @@ import styles from "./technologies.module.scss";
 export const Techno = () => {
   return (
     <div className={styles.container}>
-      <h1>Technologies we use</h1>
+      <h1>Skills & Tools</h1>
+      <p>
+        The skills, tools and technologies we use to bring your products to life
+      </p>
       <div className={styles.technologies}>
         <img
           src="/android.svg"

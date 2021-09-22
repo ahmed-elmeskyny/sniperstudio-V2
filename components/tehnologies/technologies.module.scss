@@ -1,12 +1,15 @@
 .container {
   margin-top: 50px;
-  text-align: center;
   font-family: "Rubik", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   h1 {
     font-weight: 800;
     color: #e1567c;
+    margin-bottom: 5px;
+  }
+  @media (max-width: 900px) {
+    text-align: center;
   }
   .technologies {
     display: flex;

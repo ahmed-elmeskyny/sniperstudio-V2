@@ -56,7 +56,7 @@ const Hero = () => {
           <img src="target.png" width="20px" height="20px"></img>
           <span>SNIPER STUDIO</span>
         </div>
-        <p className={styles.agency}>CREATIVE DEGETAL AGENCY </p>
+        <p className={styles.agency}>CREATIVE DIGITAL AGENCY </p>
         <div className={styles.slogan}>
           <p>BUILDING DIGITAL PRODUCTS , BRANDS </p>
         </div>
@@ -69,7 +69,7 @@ const Hero = () => {
           </p>
         </div>
         <div className={styles.links}>
-          <Link href="/contact">
+          <Link href="/about">
             <a className={styles.link}>Explore</a>
           </Link>
         </div>

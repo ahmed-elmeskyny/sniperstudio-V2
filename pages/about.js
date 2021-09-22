@@ -7,6 +7,7 @@ import styles from "../styles/about.module.scss";
 //components
 import Layout from "../components/layout/layout";
 import { Techno } from "../components/tehnologies/technologies";
+import { Aboutus } from "../components/aboutus/aboutus";
 
 export default function About() {
   return (
@@ -17,15 +18,7 @@ export default function About() {
       </Head>
 
       <Layout>
-        <div className={styles.headerContainer}>
-          <div className={styles.img}>
-            <img
-              src="/about.svg"
-              width="400vw"
-              height="400vw"
-              className={styles.aboutSvg}
-            ></img>
-          </div>
+        {/* <div className={styles.headerContainer}>
           <div className={styles.headerText}>
             <div className={styles.logo}>
               <img src="target.png" width="20px" height="20px"></img>
@@ -43,7 +36,8 @@ export default function About() {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
+        <Aboutus></Aboutus>
         <Techno></Techno>
       </Layout>
     </div>

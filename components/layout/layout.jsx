@@ -35,7 +35,7 @@ const Layout = (props) => {
               <li>Services</li>
             </ActiveLink> */}
             <ActiveLink href="/contact" activeClassName={styles.active}>
-              <li>Contact </li>
+              <li>Hire Us </li>
             </ActiveLink>
           </ul>
         </div>

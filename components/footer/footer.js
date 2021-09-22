@@ -22,7 +22,7 @@ export const Footer = () => {
             Don't let your app idea go in to the clouds. Get started now
           </span>
           <Link href="/contact">
-            <a className={styles.link}>Contact Us</a>
+            <a className={styles.link}>HIRE US</a>
           </Link>
         </div>
         <div className={styles.fastLinks}>
@@ -44,7 +44,7 @@ export const Footer = () => {
                 <li>Work</li>
               </ActiveLink>
               <ActiveLink href="/contact" activeClassName={styles.active}>
-                <li>Contact </li>
+                <li>Hire Us </li>
               </ActiveLink>
             </ul>
           </div>

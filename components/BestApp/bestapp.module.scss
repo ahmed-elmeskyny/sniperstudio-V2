@@ -1,3 +1,28 @@
+.header {
+  margin-right: 30px;
+  margin-bottom: 50px;
+  padding: 5px;
+  text-align: right;
+  @media (max-width: 900px) {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  @media (min-width: 1300px) {
+    font-size: 22px;
+  }
+  span {
+    color: #e1567c;
+    letter-spacing: 2px;
+    font-weight: 500;
+  }
+  h1 {
+    font-weight: 800;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    color: rgba(54, 45, 89, 1);
+  }
+}
+
 .container {
   display: flex;
   justify-content: center;
