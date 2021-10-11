@@ -1,5 +1,6 @@
 .headerContainer {
   display: flex;
+
   padding: 10px 35px;
   font-family: "Rubik", sans-serif;
   width: 100%;
@@ -19,7 +20,9 @@
   margin-top: 40px;
   @media (max-width: 900px) {
     height: auto;
-    // padding: 5px;
+
+    width: 100%;
+    margin-top: 70px;
     padding-bottom: 25px;
     background: rgb(54, 45, 89);
     background: linear-gradient(
@@ -35,6 +38,7 @@
     align-items: center;
     @media (max-width: 900px) {
       flex-direction: column-reverse;
+      width: 100%;
       img {
         margin-top: -80px;
       }
@@ -65,5 +69,7 @@
   @media (max-width: 900px) {
     margin-top: 30px;
     font-size: 20px;
+
+    width: 90%;
   }
 }

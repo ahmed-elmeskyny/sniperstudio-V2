@@ -37,6 +37,9 @@
     display: flex;
 
     flex-wrap: wrap;
+    @media (max-width: 900px) {
+      width: 100%;
+    }
     .mobileproject {
       width: 350px;
       height: 260px;
@@ -47,6 +50,9 @@
       justify-content: center;
       align-items: center;
       overflow: hidden;
+      @media (max-width: 900px) {
+        width: 100%;
+      }
       // box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.37);
       .description {
         height: 0;

@@ -11,10 +11,10 @@ export const Testimonials = () => {
         <h1>What our client says</h1>
       </div>
       <div className={styles.container}>
-        {/* <div className={styles.names}>
-        <div className={styles.name}>name</div>
-      </div>
-      <div className={styles.testimonial}>testimonial</div> */}
+        <div className={styles.namesContainer}>
+          <div className={styles.name}></div>
+        </div>
+        <div className={styles.testimonials}></div>
       </div>
     </>
   );
